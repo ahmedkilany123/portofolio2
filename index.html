@@ -19,6 +19,7 @@
     <header id="header">
         <nav>
             <a href="#" class="logo"><b>k</b>ilany</a>
+            <i class="fa-solid fa-bars menu"></i>
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="#about">about</a></li>
@@ -26,6 +27,7 @@
                 <li><a href="#projects">projects</a></li>
                 <li><a href="#contact">contact</a></li>
             </ul>
+           
         </nav>
     </header>
     <!-- ----------end navigation---------- -->
@@ -278,6 +280,29 @@
      
     </footer>
 
+    <!-- <script>
+        document.querySelector("nav .menu").addEventListener("click", function() {
+    document.querySelector("nav .menu + ul").style.display = "flex";
+    document.querySelector("nav .menu + ul").style.flexDirection = "column";
+    document.querySelector("nav .menu + ul").style.width = "100%";
+    document.querySelector("nav .menu + ul").style.height = "280px";
+    document.querySelector("nav .menu + ul").style.position = "fixed";
+    document.querySelector("nav .menu + ul").style.top = "50px";
+    document.querySelector("nav .menu + ul").style.backgroundColor = "black";
+    document.querySelector("nav .menu + ul").style.zIndex = "10";
+});
+var menu = document.querySelector("nav .menu");
+var ul = document.querySelector("nav .menu + ul");
 
+
+menu.addEventListener("click", showMenu);
+
+function hideMenu() {
+    ul.style.display = "none";
+}
+
+menu.addEventListener("click", hideMenu);
+
+    </script> -->
 </body>
 </html>
